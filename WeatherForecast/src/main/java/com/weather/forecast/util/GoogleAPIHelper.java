@@ -136,7 +136,7 @@ public class GoogleAPIHelper {
 				while ((line = br.readLine()) != null) {
 					result.append(line);
 				}
-				LOGGER.debug(new StringBuilder().append("Http get response").append(response.toString()).toString());
+				LOGGER.debug(new StringBuilder().append("Http get response").append(result.toString()).toString());
 				return result.toString();
 			}
 			throw new IOException(new StringBuilder().append("Http status code is ").append(statusCode).toString());
