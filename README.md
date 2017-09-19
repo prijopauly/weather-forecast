@@ -44,7 +44,7 @@ _The [WeatherForecast-0.0.1-SNAPSHOT.jar](WeatherForecast/target/WeatherForecast
 
 ## Execution
 
-The program execution requires all four _build_ outputs ([_WeatherForecast-0.0.1-SNAPSHOT.jar](WeatherForecast/target/WeatherForecast-0.0.1-SNAPSHOT.jar), [_props_](WeatherForecast/target/props), [_input_](WeatherForecast/target/input)) to be in the same location, hence can be run from either:
+The program execution requires all four _build_ outputs ([_WeatherForecast-0.0.1-SNAPSHOT.jar](WeatherForecast/target/WeatherForecast-0.0.1-SNAPSHOT.jar), [_props_](WeatherForecast/target/props),[_lib_](WeatherForecast/target/lib), [_input_](WeatherForecast/target/input)) to be in the same location, hence can be run from either:
 
 1. from [_target_](WeatherForecast/target) directory, right after the _build_ or
 2. copy the four artifacts to a common location and run from there
